@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)file:///C:/Users/wescd/Desktop/PhysicsWebsite/blank.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Momentum Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="theme.css" type="text/css"> </head>
+
+<body>
+	<div id="background" class="filter-gradient" style="width:100%; height: 100%;"></div>
+    <script>
+        setInterval(function(){
+            $("#background").height($(document).height())
+            $("#pageContainer").height($(document).height())
+        }, 50)
+    </script>
+    <div id="pageContainer" class="bg-light text-dark" style="position: absolute; left:17.5%; width:65%; top:0px; height:100%;">
+        <div style="padding-bottom: 2rem; padding-top:4.5rem;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="display-1">Momentum Unit</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                  <div class="row">
+                        <div class="col-md-12">
+                                <ul class="nav nav-tabs bg-light">
+                                    <li class="nav-item" style="width:calc(100%/5)">
+                                        <a  class="nav-link active show" data-toggle="tab" data-target="#Vocab">Vocab</a>
+                                    </li>
+                                    <li class="nav-item" style="width:calc(100%/5)">
+                                        <a class="nav-link" data-toggle="tab" data-target="#ProblemSolving">Problem Solving</a>
+                                    </li>
+                                    <li class="nav-item" style="width:calc(100%/5)">
+                                        <a class="nav-link" data-toggle="tab" data-target="#RealLife">Real Life Examples</a>
+                                    </li>
+                                     <li class="nav-item" style="width:calc(100%/5)">
+                                        <a class="nav-link" data-toggle="tab" data-target="#Lab">Lab</a>
+                                    </li>
+                                    <li class="nav-item" style="width:calc(100%/5)">
+                                        <a class="nav-link" data-toggle="tab" data-target="#Quiz">Quiz</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content mt-2">
+                                    <div class="tab-pane fade active show" id="Vocab" role="tabpanel">
+                                            <div class="table-striped table-hover">
+                                                <table class="table table-bordered" style="width:100%;">
+                                                        <tr>
+                                                            <td style="text-align: left"><strong>Term</strong></td>
+                                                            <td style="text-align: left"><strong>Definition</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left">p = m • v</td>
+                                                            <td style="text-align: left">Formula for momentum</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left">∆p = m • ∆v</td>
+                                                            <td style="text-align: left">Formula for change in momentum</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left">F • t </td>
+                                                            <td style="text-align: left">Impulse equation</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left">F • t = m • ∆v</td>
+                                                            <td style="text-align: left">Impulse-momentum theorem</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left">(m1 • v1) + (m2 • v2) = (m1 • v1) + (m2 • v2)</td>
+                                                            <td style="text-align: left">Elastic collision equation</td>
+                                                        </tr>
+                                                                                                            <tr>
+                                                            <td style="text-align: left">(m1 • v1) + (m2 • v2) = (m1 + m2) • v</td>
+                                                            <td style="text-align: left">Inelastic collision equation</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left">F • t = m • ∆v</td>
+                                                            <td style="text-align: left">Impulse-momentum theorem</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left">Impulse</td>
+                                                            <td style="text-align: left">A force acting on an object over a time</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left">Momentum</td>
+                                                            <td style="text-align: left">The motion of a moving body found by multiplying it's mass and velocity</td>
+                                                        </tr>
+                                                       <tr>
+                                                            <td style="text-align: left">Elastic Collision</td>
+                                                            <td style="text-align: left">Collision where momentum and kinetic energy are both conserved. Usually a collision where the two objects bounce off of each other.</td>
+                                                        </tr>
+                                                         <tr>
+                                                            <td style="text-align: left">Inelastic Collision</td>
+                                                            <td style="text-align: left">Collision where momentum is conserved but not kinetic energy. Usually a collision where the two objects move together (Always in the direction of the object with greater momentum).</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left">Explosion</td>
+                                                            <td style="text-align: left">Collision where momentum is conserved, but not kinetic energy and usually one velocity is negative</td>
+                                                        </tr>
+                                                </table>
+                                            </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="ProblemSolving" role="tabpanel">
+                                        <h3><strong>General Solving Process:</strong></h3>
+                                        <p><strong>Usually the first thing that is needed when solving any collision problem is determining what type of collision it is. If it is an elastic collision then that means that both objects retain seperate masses and speeds. An elastic collision generally uses the following equation: <i>(m1 • v1) + (m2 • v2) = (m1 • v1) + (m2 • v2)</i>. If the collision is an inelastic one then the following equation is usually used: <i>(m1 • v1) + (m2 • v2) = (m1 + m2) • v</i>. From there it is as simple as plugging all the variables in and solving.</strong></p>
+                                        <h3><strong>Graph Interpreting:</strong></h3>
+                                        <p>Graphs in this unit are force vs time graphs which display time in the x-axis and force in the y-axis. The area under the slope is the impulse. Example:</p>
+                                        <img src="graph.png"/>
+                                        <h3><strong>Video:</strong></h3>
+                                        <iframe width="568" height="320"
+                                        src="https://www.youtube.com/embed/E13h1E_Pc00?controls=0">
+                                        </iframe>
+                                        <h3><strong>Helpful Links:</strong></h3>
+                                        <a href="http://www.physicsclassroom.com/class/momentum/Lesson-1/Momentum">Physics Classroom Momentum</a>
+                                        <br>
+                                        <a href="http://www.physicsclassroom.com/class/momentum/Lesson-1/Momentum-and-Impulse-Connection">Physics Classroom Impulse</a>
+                                    </div>
+                                    <div class="tab-pane fade" id="Lab" role="tabpanel">
+                                            <strong><p>     For the lab for the Momentum Unit we were required to design an experiment to determine the momentum of carts before and after an elastic collision, an inelastic collision and an explosion. This meant we needed to measure the speed of the carts by seeing how fast they got to each other and how fast they went afterwards. For the elastic collision we just pushed one cart strong enough onto the other and observed as the one with more momentum pushed through the other. For the inelastic collision we needed to move both carts in a way that they would bounce off of each other and we measured from there. Finally the explosion was the most difficult because it required we put the carts together and put a loaded spring in between them, we then activated the spring which pushed the carts apart (The momentum ended up being zero in the system because they went from being still to moving in opposite directions at the same speed). Overall the conclusion was that little momentum was lost in any collision and the momentum that was lost can be attributed to friction.</p></strong>
+                                    </div>
+                                    <div class="tab-pane fade" id="RealLife" role="tabpanel">
+                                        <p class=""><strong>Momentum and Impulse have plenty of real life application and most of them are pretty intuitive. Here are some pretty common examples:<br><br>•A bowling ball rolled with a greater speed than another with the same weight will have a greater momentum. Alternatively, a bowling ball with a greater weight moving at the same speed will also have a greater momentum.<br>•Airbags are designed to make collisions longer so that it takes away the force of the momentum. This goes back to the whole concept of Big F Little T (Big Force, Little Time) and Big T Little F (Big Time, Little Force).<br>•Boxers are told to relax their neck to increase collision time. They are also told to make contact as quick as possible with their punches so the time is less and the force is greater.<br>•In football it it easier to run people over when they are standing still because their momentum is effectively zero.</strong></p>
+                                    </div>
+                                    <div class="tab-pane fade" id="Quiz" role="tabpanel">
+                                        <strong>
+                                            <p class="">1)  Two air pucks are moving toward each other across an air table (frictionless surface) and collide in a straight line. Puck 1 is moving to the right with a speed of 6 m/s. Puck 2 is moving to the left with a speed of 10 m/s. They collide and bounce off in a perfectly elastic collision. After the collision puck one is moving to the right with a speed of 2 m/s. Which puck experiences the greater change in momentum?</p>
+                                            <p class="Answer">A)Puck one</p><p>B)Puck two</p><p>C)They experience the same non-zero change in momentum</p><p>D)Neither experience a change in momentum</p>
+                                        </strong>
+                                        <br>
+                                        <strong>
+                                            <p class="">2) A bicycle has a momentum of 24 kg•m/s. What momentum would the bicycle have if it had twice the mass and was moving at the same speed?</p>
+                                            <p class="Answer">A)48 kg•m/s</p><p>B)40 kg•m/s</p><p>C)12 kg•m/s</p><p>D)24 kg•m/s</p>
+                                        </strong>
+                                        <br>
+                                        <strong>
+                                            <p class="">3)Jerome plays middle linebacker for Lassiter varsity football. In a game against cross-town rival Walton, he delivered a hit to North's 82-kg running back, changing his eastward velocity of 5.6 m/s into a westward velocity of 2.5 m/s. Determine the initial momentum of the running back?</p>
+                                            <p>A)400 kg•m/s</p><p class="Answer">B)480 kg•m/s</p><p>C)460 kg•m/s</p><p>D)380 kg•m/s</p>
+                                        </strong>
+                                        <br>
+                                        <strong>
+                                            <p class="">4) Mr. H asks Jerome (102 kg) and Michael (98 kg) to sit on a large 14-kg skate cart. Mr. H asks Suzie (44 kg) to sit on a second 14-kg skate cart. The two carts are placed on low friction boards in the hallway. Jerome pushes off of Suzie's cart. Measurements are made to determine that Suzie's cart acquired a post-impulse speed of 9.6 m/s. Determine the expected recoil speed of Jerome and Michael's cart.</p>
+                                            <p>A)2.0 m/s</p><p class="Answer">B)2.6 m/s</p><p>C)3.2 m/s</p><p>D)4.0 m/s</p>
+                                        </strong>
+                                        <br>
+                                        <strong>
+                                            <p class="">5) The fastest recorded baseball pitch was delivered by Nolan Ryan in 1974. The pitch was clocked at 100.9 mi/hr (45.0 m/s). Determine the impulse required to give a 0.145-kg baseball such a momentum.</p>
+                                            <p>A)4.12 N•s</p><p class="Answer">B)6.52 N•s</p><p>C)5.11 N•s</p><p>D)12.45 N•s</p>
+                                        </strong>
+                                        <br>
+                                        <strong>
+                                            <p class="">Free response: Johnny and his twin brother timmy have a combined mass of 200.0kg and are zooming along in a 100.0kg bumper care at 10.0m/s. They bump marias car, which was at rest. Maria has a mass of 25.0kg . after the elastic collision, the twins continue ahead with a speed of 4.12m/s. How fast was marias car bumped across the floor? </p>
+                                            <p id="FR" style="visibility: hidden; color:#42f480;">Free Response Answer: 14.112m/s<br>m1= 300kg     m2=125kg<br>v1=10m/s       v2=0
+                                            <br>vif= 4.12        v2f=?<br>300(10)+125(0)=300(4.12)+125vf<br></p>
+                                        </strong>
+                                        <script>
+                                            visible = false
+                                            function ToggleAns()
+                                            {
+                                                if(visible == false)
+                                                {
+                                                    $(".Answer").css("color", "#42f480")
+                                                    $("#FR").css("visibility", "visible")
+                                                    visible = true
+                                                }
+                                                else
+                                                {
+                                                    $(".Answer").css("color", "#151515")
+                                                    $("#FR").css("visibility", "hidden")
+                                                    visible = false
+                                                }
+                                            }
+                                        </script>
+                                        <button id="ToggleAnswers" onclick="ToggleAns();">Toggle Answers</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+        </div>
+		<p style="position:absolute; right:0px; top:0px;"><strong>Created by Wesley DeMontigny, Elder Santis and John Gormanos</strong></p>
+    </div>
+    <script src="jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js.download" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+
+
+</body></html>
